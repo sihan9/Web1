@@ -1,0 +1,408 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*top 开始*/
+.top{
+	width: 1560px;
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	text-align:center;
+	height: 95px;
+	padding-top: 32px;
+}
+.daohang{
+	width: 672px;
+	height:45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+}
+.daohang a{
+	color: #333;
+}
+.daohang li{
+	float:left;
+	height:45px;
+	padding: 0 30px 0 28px;
+	line-height: 45px;
+	background: url(../images/littleline.png) no-repeat right center;
+	font-size: 14px;
+	font-family: '微软雅黑'；
+}
+.daohang li .first{
+	color:#3a61b4;
+	display: block;
+	height: 41px;
+	border-bottom:3px solid #1e50ae;
+}
+.daohang li:last-child{
+	background: none;
+}
+/*top结束*/
+/*twopart开始*/
+.twopart {
+	width: 100%;
+	height: 408px;
+	background:url(../images/twobeijing.png) no-repeat center center;
+}
+/*twopart结束*/
+/*fuwu开始*/
+.fuwu{
+	width: 1200px;
+	height:809px;
+	margin: 0 auto;
+}
+.word{
+	width: 1200px
+	height:190px;
+	margin: 0 auto;
+}
+.word1{
+	padding: 60px 0 20px 0;
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size:34px;
+}
+.word2{
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-size:31px;
+}
+.tu1{
+	float: left;
+	width: 300px;
+	height: 365px;
+	text-align: center;
+}
+.tu2{
+	float: left;
+	width: 300px;
+	height: 256px;
+	text-align: center;
+}
+.fhang1{
+	text-align: center;
+	font-family:'微软雅黑';
+	font-size:16px;
+	padding: 13px 0 15px 0;
+}
+.l1 li{
+	width: 100px;
+	height: 24px;
+	padding-left:120px;
+	font-family:'微软雅黑';
+	font-size:14px;
+	color:#909090;
+	text-align:left;
+	background: url(../images/dian.png) no-repeat center center;
+}
+/*fuwu结束*/
+/*fangan开始*/
+.fangan{
+	width: 100%;
+	height: 713px;
+	background: url(../images/bigmid.png) no-repeat center center;
+}
+.nextword{
+	width: 1200px
+	height:215px;
+	margin: 0 auto;
+	color:#fff;
+}
+.nextword1{
+	padding: 65px 0 20px 0;
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size:34px;
+}
+.nextword2{
+	padding-bottom: 75px;
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-size:31px;
+}
+.fourbook{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+.booklittle{
+	float: left;
+	width: 25px;
+	height: 35px;
+	position: relative;
+	top:132px;
+}
+.book1{
+	float:left;
+	padding-left:35px;
+}
+.book2{
+	float:left;
+	padding-right:52px;
+	padding-left:52px;
+}
+.book3{
+	float:left;
+	padding-right: 52px;
+}
+.book4{
+	float:left;
+	padding-right: 36px;
+}
+.liaojie{
+	margin: 0 auto;
+	width: 1200px;
+	height: 200px;
+	text-align: center;
+	margin-top:80px;
+}
+.liaojie button{
+	width: 230px;
+	height: 50px;
+	background:none;
+	border:1px solid #fff;
+	border-radius: 25px;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	color:#fff;
+}
+/*fangan结束*/
+/*zixun开始*/
+.zixun{
+	width:1200px;
+	height:908px;
+	margin: 0 auto;
+}
+.threeword{
+	width: 100%;
+	height: 187px;
+}
+.threeword1{
+	padding: 60px 0 20px 0;
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size:34px;
+}
+.threeword2{
+	padding-bottom: 55px;
+	text-align: center;
+	font-family: 'Times New Roman';
+	font-size:31px;
+}
+.diqiu{
+	float: left;
+	width: 600px;
+	height: 293px;
+}
+.wenzi{
+	padding-left: 27px;
+	float: left;
+	width: 573px;
+	height: 233px;
+}
+.wenzi1{
+	padding: 30px 0 20px 0;
+	font-family: '微软雅黑';
+	font-size:22px;
+}
+.wenzi2{
+	padding-bottom: 36px;
+	font-family: '微软雅黑';
+	font-size:18px;
+	color:#7d7d7d;
+}
+.wenzi3{
+	line-height: 25px;
+	font-family: '微软雅黑';
+	font-size:14px;
+	color: #969696;
+}
+.liaojie2{
+	width: 573px;
+	height: 60px;
+	padding-left: 27px;
+	float: left;
+}
+.liaojie2 button{
+	width: 140px;
+	height: 41px;
+	background:none;
+	border:1px solid #1141a3;
+	border-radius: 20px;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	color:#1141a3;
+}
+.list{
+	float: left;
+	width: 600px;
+	height:428px;
+}
+.list1{
+	padding:84px 22px 0 77px;
+}
+.list2{
+	padding:84px 72px 0 27px;
+}
+.list li{
+	border-bottom:1px dashed #dcdcdc;
+	font-family: '微软雅黑';
+	font-size:14px;
+	line-height: 47px;
+	color: #797979;
+}
+.list .listlast{
+	border:none;
+}
+/*zixun结束*/
+/*huisedibu开始*/
+.huisedibu{
+	width:100%;
+	height:102px;
+	background-color:#f5f5f5; 
+}
+.part{
+	width: 1200px;
+	height: 102px;
+	margin: 0 auto;
+}
+.part1{
+	float: left;
+	width: 71px;
+	height: 73px;
+	padding: 29px 0 0 49px;
+}
+.part2{
+	position: relative;
+	top: 28px;
+	float: left;
+	width: 179px;
+	height: 48px;
+	border-right:1px solid #e0e0e0;
+}
+#part0{
+	border:none;
+}
+.hang1{
+	text-align:left;
+	font-family: '微软雅黑';
+	font-size:19px;
+	padding:0 0 8px 0;
+}
+.hang2{
+	text-align:left;
+	font-family: '微软雅黑';
+	font-size:13px;
+}
+/*huisedibu结束*/
+/*heisedibu开始*/
+.heisedibu{
+	width:100%;
+	height:386px;
+	background-color:#323232; 
+}
+.dibu1{
+	width: 1200px;
+	height: 260px;
+	margin: 0 auto;
+}
+#up{
+	font-family:'微软雅黑';
+	font-size:18px;
+	padding-bottom: 31px;
+}
+.biao{
+	width: 180px;
+	height: 186px;
+	float: left;
+	margin-top:74px;
+	color:#e0e0e0;
+}
+.biao li{
+	color: #999;
+	font-family:'微软雅黑';
+	font-size:14px;
+	padding-bottom: 23px;
+}
+.erweima{
+	width:232px;
+	height:139px;/*28*/
+	float: left;
+	margin:71px 0 50px;
+	border-right:1px solid #9c9c9c;
+}
+.erweima img{
+	float: left;
+	margin-right:36px;
+	border:4px solid #fff;
+}
+#wei{
+	margin-top:0px;
+}
+.erweima p{
+	margin-top:7px;
+	font-family:'微软雅黑';
+	font-size:18px;
+	color: #999;
+}
+.lianxi{
+	width: 247px;
+	height: 260px;
+	float: left;
+	color: #999;
+}
+.lianxi1{
+	margin: 90px 0 0 35px;
+	font-family:'微软雅黑';
+	font-size:18px;
+	
+}
+.lianxi2{
+	margin: 25px 0 0 40px;
+	font-family:'微软雅黑';
+	font-size:16px;
+}
+.lianxi3{
+	margin: 23px 0 0 40px;
+	font-family:'微软雅黑';
+	font-size:16px;
+}
+.down{
+	width: 1560px;
+	height: 1px;
+	background-color: #999;
+}
+.dibu2{
+	width: 1200px;
+	height: 87px;
+	margin: 0 auto;
+	font-family:'微软雅黑';
+	font-size:14px;
+	color: #999;
+}
+.dibu2 ul{
+	margin:38px 0 0 222px;
+}
+.dibulist li{
+	color: #999;
+	border-right:2px solid #999;
+	display:inline-block;
+	padding:0 13px 0 13px;
+}
+.dibulist .f{
+	border:none;
+}
+.endword{
+	margin: 23px 0 0 464px;
+}
+/*heisedibu结束*/
